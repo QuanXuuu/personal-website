@@ -1,33 +1,38 @@
 * {
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
-body {
-  font-family: "Tapestry", cursive;
-}
 h1 {
-  color: blue;
-  background-color: aliceblue;
-  border-radius: 8px;
-  padding: 5px 20px 5px 35px;
   font-size: 1.7rem;
+  text-align: center;
 }
 
 .tags {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
-  border-radius: 8px;
-  justify-content: space-evenly;
-  background-color: aliceblue;
+  justify-content: end;
+}
+
+nav {
+  margin-bottom: 40px;
+  border-bottom: 1px solid gray;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  gap: 8px;
   padding: 10px;
 }
 
-img {
+.me {
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 100px;
   padding: 5px;
-  width: 330px;
-  margin: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
