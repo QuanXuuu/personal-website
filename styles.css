@@ -29,13 +29,10 @@ nav a {
 h1 {
   font-size: 2rem;
   text-align: center;
-  text-shadow: rgb(240, 220, 141) 5px 0 10px;
+  text-shadow: rgb(74, 136, 105) 5px 0 10px;
   font-family: "Roboto Slab", serif;
 }
 
-#bio {
-  font-style: oblique 20deg;
-}
 .me {
   border: 1px solid #ddd;
   border-radius: 100px;
@@ -47,32 +44,43 @@ h1 {
 }
 
 #firstpage {
-  background-color: gainsboro;
+  background-color: rgb(234, 244, 238);
 }
 
 #contact {
   font-family: "Roboto Slab", serif;
   text-decoration: underline;
+  padding: 5px;
+  background-color: rgb(198, 196, 196);
+  text-align: center;
 }
 
+.liststyle {
+  list-style-type: circle;
+}
 #contactinfo {
   list-style: none;
 }
 #projects {
   font-family: "Roboto Slab", serif;
   text-decoration: underline;
+  padding: 5px;
+  background-color: rgb(198, 196, 196);
+  text-align: center;
 }
 
 #secondpage {
-  background-color: gainsboro;
+  background-color: rgb(234, 244, 238);
 }
 
 #resume {
   font-family: "Roboto Slab", serif;
-  background-color: gainsboro;
   text-decoration: underline;
+  padding: 5px;
+  background-color: rgb(198, 196, 196);
+  text-align: center;
 }
 
 #thirdpage {
-  background-color: gainsboro;
+  background-color: rgb(234, 244, 238);
 }
