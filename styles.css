@@ -7,8 +7,9 @@ body {
 }
 
 .coding {
-  width: 100%;
-  height: 150px;
+  max-width: 100%;
+  height: 50px;
+  border-radius: 10%;
 }
 .tags {
   list-style: none;
