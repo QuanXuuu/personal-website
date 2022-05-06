@@ -6,6 +6,10 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.coding {
+  width: 100%;
+  height: 150px;
+}
 .tags {
   list-style: none;
   display: flex;
@@ -29,30 +33,29 @@ nav a {
 h1 {
   font-size: 2rem;
   text-align: center;
-  text-shadow: rgb(74, 136, 105) 5px 0 10px;
+  text-shadow: rgb(121, 160, 140) 5px 0 10px;
   font-family: "Roboto Slab", serif;
 }
 
 .me {
-  border: 1px solid #ddd;
-  border-radius: 100px;
-  padding: 5px;
+  border-radius: 50px;
+  padding: 10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 60%;
 }
 
 #firstpage {
-  background-color: rgb(234, 244, 238);
+  background-color: rgb(240, 245, 242);
 }
 
 #contact {
   font-family: "Roboto Slab", serif;
   text-decoration: underline;
   padding: 5px;
-  background-color: rgb(198, 196, 196);
   text-align: center;
+  background-color: rgb(225, 224, 224);
 }
 
 .liststyle {
@@ -65,22 +68,22 @@ h1 {
   font-family: "Roboto Slab", serif;
   text-decoration: underline;
   padding: 5px;
-  background-color: rgb(198, 196, 196);
   text-align: center;
+  background-color: rgb(225, 224, 224);
 }
 
 #secondpage {
-  background-color: rgb(234, 244, 238);
+  background-color: rgb(240, 245, 242);
 }
 
 #resume {
   font-family: "Roboto Slab", serif;
   text-decoration: underline;
   padding: 5px;
-  background-color: rgb(198, 196, 196);
+  background-color: rgb(225, 224, 224);
   text-align: center;
 }
 
 #thirdpage {
-  background-color: rgb(234, 244, 238);
+  background-color: rgb(240, 245, 242);
 }
