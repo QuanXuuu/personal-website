@@ -1,12 +1,9 @@
 * {
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
 }
 
-h1 {
-  font-size: 1.7rem;
-  text-align: center;
-  font-family: "Roboto Slab", serif;
+body {
+  font-family: "Inter", sans-serif;
 }
 
 .tags {
@@ -14,6 +11,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: end;
+  padding: 10px 1px 1px 10px;
 }
 
 nav {
@@ -28,6 +26,16 @@ nav a {
   padding: 10px;
 }
 
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: rgb(240, 220, 141) 5px 0 10px;
+  font-family: "Roboto Slab", serif;
+}
+
+#bio {
+  font-style: oblique 20deg;
+}
 .me {
   border: 1px solid #ddd;
   border-radius: 100px;
@@ -44,6 +52,7 @@ nav a {
 
 #contact {
   font-family: "Roboto Slab", serif;
+  text-decoration: underline;
 }
 
 #contactinfo {
@@ -51,6 +60,7 @@ nav a {
 }
 #projects {
   font-family: "Roboto Slab", serif;
+  text-decoration: underline;
 }
 
 #secondpage {
@@ -60,6 +70,7 @@ nav a {
 #resume {
   font-family: "Roboto Slab", serif;
   background-color: gainsboro;
+  text-decoration: underline;
 }
 
 #thirdpage {
