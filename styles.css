@@ -6,11 +6,6 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.coding {
-  max-width: 100%;
-  height: 50px;
-  border-radius: 10%;
-}
 .tags {
   list-style: none;
   display: flex;
@@ -34,8 +29,19 @@ nav a {
 h1 {
   font-size: 2rem;
   text-align: center;
-  text-shadow: rgb(121, 160, 140) 5px 0 10px;
   font-family: "Roboto Slab", serif;
+  color: rgba(200, 150, 12, 0.582);
+}
+
+h2 {
+  font-family: "Roboto Slab", serif;
+  text-decoration: underline;
+  padding: 5px;
+  color: rgba(200, 150, 12, 0.582);
+}
+
+h3 {
+  color: rgba(133, 103, 20, 0.582);
 }
 
 .me {
@@ -47,44 +53,17 @@ h1 {
   width: 60%;
 }
 
-#firstpage {
-  background-color: rgb(240, 245, 242);
-}
-
-#contact {
-  font-family: "Roboto Slab", serif;
-  text-decoration: underline;
-  padding: 5px;
-  text-align: center;
-  background-color: rgb(225, 224, 224);
-}
-
 .liststyle {
   list-style-type: circle;
 }
 #contactinfo {
   list-style: none;
 }
-#projects {
-  font-family: "Roboto Slab", serif;
-  text-decoration: underline;
-  padding: 5px;
-  text-align: center;
-  background-color: rgb(225, 224, 224);
-}
 
-#secondpage {
-  background-color: rgb(240, 245, 242);
-}
-
-#resume {
-  font-family: "Roboto Slab", serif;
-  text-decoration: underline;
-  padding: 5px;
-  background-color: rgb(225, 224, 224);
-  text-align: center;
-}
-
-#thirdpage {
-  background-color: rgb(240, 245, 242);
+.worksphoto {
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
