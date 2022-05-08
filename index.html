@@ -7,96 +7,131 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Roboto+Slab:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Roboto+Slab:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
-<div id="firstpage">
   <header>
-
     <nav>
       <ul class="tags">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#resume">Resume</a></li>
-    </ul>
-     </nav>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+      </ul>
+    </nav>
   </header>
 
   <body>
     <main>
-      <div id="home">
-        <h1>Hi, I am Quan Xu!</h1>
-        <p id="bio">Thanks for checking out my website and design work. <br>I am a web developer based in Hamburg. I have studied and worked in China, Japan, Singapore and Germany. <br>  During my spare time, I enjoy cooking and playing table tennis.</p>
-</div>
-      
-      <img class="me" src="me.jpg" alt="my photo">
-</div>
+      <h1 id="home">Hi, I am Quan!</h1>
 
-<hr>
+      <div id="firstpage">
+        <img class="me" src="me.jpg" alt="my photo" />
 
- 
-  <section>
-        <h2 id="contact">Contact</h2>
-        <ul id="contactinfo">
-          <li>Phone Number: 0179/000000 </li>
-          <li>Email:quanxu@web.com</li>
-        </ul>
-  </section>
-   
-  
-<h2 id="projects">Projects</h2>
-      
-    <figure class ="worksphoto">
-      <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cXVpenxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60" alt="quiz">
-      <figcaption>
-        <a href="#">A Quiz Game Using JS</a>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit olestiae repellat cum praesentium.</p>
-      </figcaption>
-    </figure>
+        <div id="bio">
+          <h2>About me</h2>
+          <p>
+            Thanks for checking out my website and design work. <br />My name is
+            Quan Xu. I am a web developer based in Hamburg. <br />
+            I have studied and worked in China, Japan, Singapore and Germany.
+            <br />
+            During my spare time, I enjoy cooking and playing table tennis.
+          </p>
+        </div>
 
-    <figure class ="worksphoto">
-      <img src="https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29va2luZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60" alt="cooking">
-      <figcaption>
-        <a href="#">A Cooking Webapp</a>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, a!</p>
-      </figcaption>
-    </figure>
+        <div id="contact">
+          <h2>Contact</h2>
+          <p>
+            Phone Number: 0179/000000<br />
+            Email: quanxu@web.com
+          </p>
+        </div>
+      </div>
 
-    <figure class ="worksphoto">
-      <img src="https://images.unsplash.com/photo-1427751840561-9852520f8ce8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHN1cnZleXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60" alt="Survey">
-      <figcaption>
-        <a href="#">A Survey Form</a>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, labore.</p>
-      </figcaption>
-    </figure>
-    
-    
-<hr>
-  
-        <h2 id="resume">Resume</h2>
-    
+      <h2>Projects</h2>
+      <div id="projects">
+        <div class="card">
+          <h3 class="projects">A Quiz Game Using JS</h3>
+          <img
+            src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cXVpenxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60"
+            class="projects_photo"
+            alt="quiz"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit olestiae
+            repellat cum praesentium.<br />
+            <a href="#">Learn more...</a>
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="projects">A Cooking Webapp</h3>
+          <img
+            src="https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29va2luZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60"
+            class="projects_photo"
+            alt="cooking"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, a!
+            <br /><a href="#">Learn more...</a>
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="projects">A Survey Form</h3>
+          <img
+            src="https://images.unsplash.com/photo-1427751840561-9852520f8ce8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHN1cnZleXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60"
+            class="projects_photo"
+            alt="Survey"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+            labore. <br />
+            <a href="#">Learn more...</a>
+          </p>
+        </div>
+      </div>
+
+      <div id="resume">
+        <h2>Resume</h2>
+
         <h3>Courses & Trainings</h3>
         <ul class="liststyle">
           <li>Web Developer Bootcamp by NeueFische</li>
           <li>Web Developer Bootcamp by Udemy.com</li>
-          <li>The Complete Javascipt  Course by Udemy.com</li>
+          <li>The Complete Javascipt Course by Udemy.com</li>
         </ul>
 
         <h3>Work Experience</h3>
         <ul class="liststyle">
-          <li>06.2015 - 05.2016 Commercial Administration Manager in Oldendorff Carriers, Singapore</li>
-          <li>05.2014 - 05.2015 Commercial Support Manager in Oldendorff Carriers, Luebeck/Germay</li>
+          <li>
+            06.2015 - 05.2016 Commercial Administration Manager in Oldendorff
+            Carriers, Singapore
+          </li>
+          <li>
+            05.2014 - 05.2015 Commercial Support Manager in Oldendorff Carriers,
+            Luebeck/Germay
+          </li>
           <li>09.2011 - 05.2012 Interpreter in Hakuhodo, Guangzhou/China</li>
         </ul>
-      
+
         <h3>Education</h3>
         <ul class="liststyle">
-          <li>09.2009 - 06.2011 M.A. in Linguistics / Sun Yat-sen University & Kwansei Gakuin University </li>
-          <li>09.2005 - 06.2009 B.A. in Japanese / South China University of Technology </li>
+          <li>
+            09.2009 - 06.2011 M.A. in Linguistics / Sun Yat-sen University &
+            Kwansei Gakuin University
+          </li>
+          <li>
+            09.2005 - 06.2009 B.A. in Japanese / South China University of
+            Technology
+          </li>
         </ul>
+      </div>
     </main>
 
     <footer>

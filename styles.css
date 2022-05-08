@@ -4,6 +4,8 @@
 
 body {
   font-family: "Inter", sans-serif;
+  /*display: flex;*/
+  margin: 60px;
 }
 
 .tags {
@@ -11,7 +13,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: end;
-  padding: 10px 1px 1px 10px;
 }
 
 nav {
@@ -27,15 +28,21 @@ nav a {
 }
 
 h1 {
-  font-size: 2rem;
   text-align: center;
   font-family: "Roboto Slab", serif;
   color: rgba(200, 150, 12, 0.582);
 }
 
+#firstpage {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
 h2 {
   font-family: "Roboto Slab", serif;
-  text-decoration: underline;
   padding: 5px;
   color: rgba(200, 150, 12, 0.582);
 }
@@ -50,20 +57,47 @@ h3 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 200px;
+
+  margin: 20px;
+}
+
+#bio {
+  padding: 10px;
+  margin: 20px;
+}
+
+#contact {
+  padding: 10px;
+  margin: 20px;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card {
+  width: 400px;
+  margin: 10px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.projects_photo {
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .liststyle {
   list-style-type: circle;
-}
-#contactinfo {
-  list-style: none;
-}
-
-.worksphoto {
-  padding: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
 }
