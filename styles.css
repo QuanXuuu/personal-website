@@ -4,6 +4,8 @@
 
 body {
   font-family: "Inter", sans-serif;
+  background-color: rgb(234, 234, 225);
+  /*display: flex;*/
 }
 
 .tags {
@@ -12,6 +14,7 @@ body {
   flex-wrap: wrap;
   justify-content: end;
   padding: 10px 1px 1px 10px;
+  font-size: 2.4vw;
 }
 
 nav {
@@ -27,7 +30,7 @@ nav a {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 6vw;
   text-align: center;
   font-family: "Roboto Slab", serif;
   color: rgba(200, 150, 12, 0.582);
@@ -35,13 +38,19 @@ h1 {
 
 h2 {
   font-family: "Roboto Slab", serif;
+  font-size: 4vw;
   text-decoration: underline;
   padding: 5px;
   color: rgba(200, 150, 12, 0.582);
 }
 
+p {
+  font-size: 2.4vw;
+}
+
 h3 {
   color: rgba(133, 103, 20, 0.582);
+  font-size: 3vw;
 }
 
 .me {
@@ -50,20 +59,32 @@ h3 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 50%;
+}
+
+#contactinfo {
+  list-style: none;
+  font-size: 2.4vw;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.projects_photo {
+  border-radius: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .liststyle {
   list-style-type: circle;
-}
-#contactinfo {
-  list-style: none;
-}
-
-.worksphoto {
-  padding: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+  font-size: 2.4vw;
 }
