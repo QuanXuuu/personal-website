@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Welcome to Quan's Website</title>
+    <link rel="stylesheet" href="css/styles.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,7 +17,7 @@
 
   <header>
     <nav>
-      <ul class="tags">
+      <ul role="list" class="tags">
         <li><a href="#home">Home</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -28,19 +28,18 @@
 
   <body>
     <main>
-      <h1 id="home">Hi, I am Quan!</h1>
+      <h1>Hi, I am Quan!</h1>
 
-      <div id="firstpage">
+      <div id="home">
         <img class="me" src="me.jpg" alt="my photo" />
 
         <div id="bio">
           <h2>About me</h2>
           <p>
-            Thanks for checking out my website and design work. <br />My name is
-            Quan Xu. I am a web developer based in Hamburg. <br />
-            I have studied and worked in China, Japan, Singapore and Germany.
-            <br />
-            During my spare time, I enjoy cooking and playing table tennis.
+            Thanks for checking out my website and design work. My name is Quan
+            Xu. I am a web developer based in Hamburg. I have studied and worked
+            in China, Japan, Singapore and Germany. During my spare time, I
+            enjoy cooking and playing table tennis.
           </p>
         </div>
 
@@ -108,35 +107,42 @@
         </ul>
 
         <h3>Work Experience</h3>
+
         <ul class="liststyle">
           <li>
-            06.2015 - 05.2016 Commercial Administration Manager in Oldendorff
-            Carriers, Singapore
+            06.2015 - 05.2016
+            <span class="position">Commercial Administration Manager</span> at
+            Oldendorff Carriers, Singapore
           </li>
           <li>
-            05.2014 - 05.2015 Commercial Support Manager in Oldendorff Carriers,
-            Luebeck/Germay
+            05.2014 - 05.2015
+            <span class="position">Commercial Support Manager</span> at
+            Oldendorff Carriers, Luebeck/Germany
           </li>
-          <li>09.2011 - 05.2012 Interpreter in Hakuhodo, Guangzhou/China</li>
+          <li>
+            09.2011 - 05.2012 <span class="position">Interpreter</span> at
+            Hakuhodo, Guangzhou/China
+          </li>
         </ul>
 
         <h3>Education</h3>
         <ul class="liststyle">
           <li>
-            09.2009 - 06.2011 M.A. in Linguistics / Sun Yat-sen University &
-            Kwansei Gakuin University
+            09.2009 - 06.2011
+            <span class="position">M.A. in Linguistics</span> / Sun Yat-sen
+            University & Kwansei Gakuin University
           </li>
           <li>
-            09.2005 - 06.2009 B.A. in Japanese / South China University of
-            Technology
+            09.2005 - 06.2009 <span class="position">B.A. in Japanese</span> /
+            South China University of Technology
           </li>
         </ul>
       </div>
     </main>
 
     <footer>
-      <small>Copyright by Quan Xu</small>
-      <button><a href="#home">Home</a></button>
+      <small>&copy Copyright by Quan Xu 2022</small>
+      <a href="#home">Home</a>
     </footer>
   </body>
 </html>
