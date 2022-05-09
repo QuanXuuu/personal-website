@@ -1,12 +1,5 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Inter", sans-serif;
-  /*display: flex;*/
-  margin: 60px;
-}
+@import "global.css";
+@import "colors.css";
 
 .tags {
   list-style: none;
@@ -23,8 +16,13 @@ nav {
 nav a {
   color: black;
   text-decoration: none;
-  gap: 8px;
-  padding: 10px;
+  gap: 10px;
+  padding: 2rem;
+  border-radius: 20%;
+}
+
+a:hover {
+  background-color: rgb(211, 203, 203);
 }
 
 h1 {
@@ -33,7 +31,7 @@ h1 {
   color: rgba(200, 150, 12, 0.582);
 }
 
-#firstpage {
+#home {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -41,14 +39,8 @@ h1 {
   /*align-items: stretch;*/
 }
 
-h2 {
-  font-family: "Roboto Slab", serif;
-  padding: 5px;
-  color: rgba(200, 150, 12, 0.582);
-}
-
-h3 {
-  color: rgba(133, 103, 20, 0.582);
+p {
+  max-width: 80ch;
 }
 
 .me {
@@ -59,6 +51,16 @@ h3 {
   margin-right: auto;
   width: 200px;
   margin: 20px;
+}
+
+h2 {
+  font-family: "Roboto Slab", serif;
+  padding: 5px;
+  color: rgba(200, 150, 12, 0.582);
+}
+
+h3 {
+  color: rgba(133, 103, 20, 0.582);
 }
 
 #bio {
@@ -84,6 +86,8 @@ h3 {
   margin: 10px;
   text-align: center;
   border: 1px solid gray;
+  border-radius: 5%;
+  box-shadow: 3px 3px gray;
 }
 
 img {
@@ -101,4 +105,18 @@ img {
 
 .liststyle {
   list-style-type: circle;
+}
+
+.position {
+  font-weight: bolder;
+  color: rgba(133, 103, 20, 0.582);
+}
+
+footer a {
+  text-decoration: none;
+  background-color: antiquewhite;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10%;
+  padding: 5px;
 }
